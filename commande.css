@@ -1,0 +1,114 @@
+.container{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%; 
+
+}
+.menu{
+    background-color: white;
+}
+h1{
+    color:white;
+    
+
+}
+h2{
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+body{
+    background-color:black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    
+   
+}
+.logo img{
+    width:150px;
+    height: 115px;
+   border-radius: 10px;
+   margin-top: 1px;
+   margin-left: 2px;
+}
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+   
+   
+}
+input{
+    border-radius: 10px;
+}
+li{
+    
+    font-size: 15px;
+   text-decoration: underline;
+    text-decoration: underline;
+    background-color:rgba(227, 69, 12, 0.856) ;
+    margin: 5px;
+    color: #120c0c;
+    border-radius: 15px;
+}
+a{
+    color: #120c0c;
+    margin: 15px;
+   
+}
+a:hover{
+    cursor:pointer;
+    color: black;
+}
+body{
+    background-color: #000000fb;
+    color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset{
+    border-radius: 40px;
+   text-align: center;
+    
+    
+}
+label{
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+input{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    text-align: center;
+}
+footer{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color:white ;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,141 @@
+.container{
+    background-color: white;
+    position: fixed;
+    top: 0;            /* Collée en haut */
+    left: 0;
+    width: 100%; 
+    height: 20%;
+     box-shadow: 1px 0px 20px rgb(180, 178, 178);
+}
+input{
+    border-radius: 10px;
+}
+div{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    
+   
+}
+.logo img{
+    width:150px;
+    height: 115px;
+   border-radius: 10px;
+   margin-top: 1px;
+   margin-left: 2px;
+}
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+   
+   
+}
+li{
+    
+    font-size: 15px;
+    text-decoration: underline;
+    background-color:rgba(227, 69, 12, 0.856) ;
+    margin: 5px;
+    color: #120c0c;
+    border-radius: 15px;
+}
+a{
+    color: #120c0c;
+    margin: 15px;
+}
+a:hover{
+     cursor:pointer;
+    color: black;
+}
+
+h1{
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    padding: 280px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: brown;
+
+}
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+h2{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    background-color: brown;
+}
+.stat h2{
+     color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    background-color: brown;
+    padding: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+body{
+     background-image: url(mediaexamen/fond9.jpg);
+      background-size: cover;
+   background-repeat: no-repeat;
+}
+.containe{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+     font-size: 20px;
+
+   
+}
+.donnees{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+}
+.stat h2{
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    font-size: 30px;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+footer{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color:white ;
+    color: black;
+    font-weight: bold;
+}

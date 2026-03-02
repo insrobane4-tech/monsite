@@ -1,0 +1,229 @@
+.container{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%; 
+
+}
+.menu{
+    background-color: white;
+}
+h1{
+    color:white;
+    
+
+}
+h2{
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+body{
+   
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    
+   
+}
+.logo img{
+    width:150px;
+    height: 115px;
+   border-radius: 10px;
+   margin-top: 1px;
+   margin-left: 2px;
+}
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+   
+   
+}
+input{
+    border-radius: 10px;
+}
+li{
+    
+    font-size: 15px;
+   text-decoration: underline;
+    text-decoration: underline;
+    background-color:rgba(227, 69, 12, 0.856) ;
+    margin: 5px;
+    color: #120c0c;
+    border-radius: 15px;
+}
+a{
+    color: #120c0c;
+    margin: 15px;
+   
+}
+a:hover{
+    cursor:pointer;
+    color: black;
+}
+body{
+    background-color: #000000fb;
+    color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ACCEUIL{
+    background-image: url("mediaexamen/1339308.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+.texte h1{
+padding-bottom: 55%;
+align-items: center;
+
+}
+.ACCEUIL{
+   text-align: center;
+   padding-top: 150px;
+   color: white;
+}
+.ACCEUIL h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow:00 10px  #000000bb,00 20px #ff3c00,00 20px #120c0c;
+    position: relative;
+    color: rgb(252, 249, 249);
+    box-shadow: #000000bb;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+   
+    
+}
+.ACCEUIL p{
+     margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 650px;
+}
+.marques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    width: 150px;
+    height: 100px;
+}
+.image img{
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 110px;
+    height: 120px;
+    box-shadow: 0px 0px 10px 5px white;
+    border-radius: 20px;
+}
+
+.img1:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img2:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img3:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img4:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img5:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img6:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img7:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+.img8:hover{
+     transform: scale(1.15);
+    transition: all 0.8s;
+}
+
+.produits{
+    display: flex;
+    justify-content: center;
+}
+.container {
+  position: fixed;   /* Fixe la barre */
+  top: 0;            /* Collée en haut */
+  left: 0;
+  width: 100%; 
+  height: 20%;
+  background-color:white;
+  z-index: 100;
+  box-shadow: 1px 0px 20px rgb(180, 178, 178);
+}
+.point{
+    margin: 20px;
+    justify-content: center;
+    background: radial-gradient(circle,white,black,white,black);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+i{
+    font-size: 60px;
+}
+.text{
+    font-weight: bold;
+}
+.texte{
+    display: flex;
+    align-items: center;
+} 
+fieldset{
+   border-radius: 20px;
+    box-shadow: 1px 0px 10px rgb(180, 178, 178);
+}
+footer{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color:white ;
+    color: black;
+    font-weight: bold;
+}
+button{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+button:hover{
+     cursor:pointer;
+    color: black;
+
+}

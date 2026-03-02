@@ -1,0 +1,132 @@
+div{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    
+   
+}
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+a{
+    color: #120c0c;
+    margin: 15px;
+  
+   
+}
+a:hover{
+    cursor:pointer;
+    color: black;
+    
+}
+img{
+    width:150px;
+    height: 115px;
+   border-radius: 10px;
+   margin-top: 1px;
+   margin-left: 2px;
+    
+  
+}
+li{
+    font-size: 15px;
+     border-radius: 15px;
+    text-decoration: underline;
+    background-color:rgba(227, 69, 12, 0.856) ;
+    margin: 5px;
+    color: #120c0c;
+}
+input{
+    border-radius: 10px;
+}
+li:hover{
+    cursor:pointer;
+    color: black;
+    
+}
+body{
+    background-color: #000000fb;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  position: fixed;   /* Fixe la barre */
+  top: 0;            /* Collée en haut */
+  left: 0;
+  width: 100%; 
+  height: 20%;
+  background-color:white;
+  z-index: 100;
+  box-shadow: 1px 0px 20px rgb(180, 178, 178);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+p{
+  font-weight: bolder;
+} 
+i{
+    font-size: 50px;
+}
+fieldset{
+    border-radius: 25px;
+     box-shadow: 1px 0px 20px rgb(180, 178, 178);
+}
+.group{
+   display: flex;
+   gap: 5px;
+}
+input{
+    border-radius: 20px;
+}
+.contact{
+   display: flex;
+ 
+   justify-content: center;
+}
+label{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+select{
+    border-radius: 20px;
+}
+button{
+    border-radius: 20px;
+    padding: 15px;
+   
+}
+.reseu{
+    background-color: black;
+}
+textarea{
+    border-radius: 20px;
+}
+footer{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color:white ;
+    color: black;
+    font-weight: bold;
+}
